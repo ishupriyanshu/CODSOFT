@@ -1,0 +1,147 @@
+/* Base styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #a8dadc;
+  color: #1d3557;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation Bar */
+nav {
+  background-color: #1d3557;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav a {
+  color: #f1faee;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 1.2em;
+}
+
+nav a:hover {
+  color: #e63946;
+}
+
+/* Header */
+header {
+  text-align: center;
+  background-color: #457b9d;
+  color: #f1faee;
+  padding: 20px;
+}
+
+/* Sections */
+section {
+  padding: 20px;
+  border-bottom: 1px solid #1d3557;
+}
+
+h1, h3, h4 {
+  color: #1d3557;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.5em;
+  margin-top: 20px;
+}
+
+h4 {
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+/* Links */
+a {
+  color: #e63946;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Profile Image */
+.profile-img {
+  border-radius: 50%;
+}
+
+/* Tables */
+table {
+  width: 100%;
+}
+
+table, th, td {
+  border: 1px solid #1d3557;
+  border-collapse: collapse;
+  padding: 10px;
+}
+
+thead {
+  background-color: #457b9d;
+  color: #f1faee;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #f1faee;
+}
+
+/* Skills Section */
+.skills table {
+  width: auto;
+}
+
+/* Projects Section */
+.projects img.calculator-img {
+  width: 30%;
+  margin: 1%;
+}
+
+.projects img.hogwarts-img {
+  width: 48%;
+  margin: 1%;
+}
+
+/* Download Resume Button */
+.download-resume {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #457b9d;
+  color: #f1faee;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: 20px;
+  text-decoration: none;
+}
+
+.download-resume:hover {
+  background-color: #1d3557;
+}
+
+/* Contact Section */
+.contact a {
+  color: #e63946;
+  font-weight: bold;
+}
+
+/* Intro Section */
+.intro img {
+  width: 250px;
+  height: 250px;
+}
+
+/* List Styles */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ol {
+  padding-left: 20px;
+}
