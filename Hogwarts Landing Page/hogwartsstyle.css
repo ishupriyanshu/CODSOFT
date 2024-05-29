@@ -1,0 +1,145 @@
+/* General styles */
+body {
+    font-family: 'Cinzel', serif;
+    margin: 0;
+    padding: 0;
+    background: url('hogwarts-background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header styles */
+header {
+    background: rgba(26, 26, 26, 0.9);
+    color: #fff;
+    padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+header .emblem {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+    color: #f3c600; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    font-family: 'Cinzel Decorative', cursive;
+    margin-bottom: 20px; 
+}
+
+/* Navigation styles */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #f3c600;
+}
+
+/* Section styles */
+.intro-section, .house-section {
+    padding: 80px 20px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.intro-section h2, .house-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.intro-section p, .house-section p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+
+.house-section img {
+    max-width: 250px;
+    margin-bottom: 20px;
+}
+    
+.house-section img:hover {
+    transform: scale(1.1);
+}
+
+/* House-specific styles */
+#gryffindor {
+    background-color: rgba(116, 0, 1, 0.8); 
+}
+
+#slytherin {
+    background-color: rgba(26, 71, 42, 0.8);
+}
+
+#ravenclaw {
+    background-color: rgba(14, 26, 64, 0.8); 
+}
+
+#hufflepuff {
+    background-color: rgba(236, 185, 57, 0.8); 
+}
+
+footer {
+    background-color: rgba(26, 26, 26, 0.9);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    font-family: 'Cinzel', serif;
+}
+
+footer p {
+    font-size: 16px;
+    margin: 0;
+}
+
+#scrollTopBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 20px; /* Place the button 20px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #d3d2cd; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+#scrollTopBtn:hover {
+    background-color: #333;
+}

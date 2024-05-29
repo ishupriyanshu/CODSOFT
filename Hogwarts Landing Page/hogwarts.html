@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hogwarts School of Witchcraft and Wizardry</title>
+    <link rel="stylesheet" href="hogwartsstyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Cinzel+Decorative:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <img src="hogwarts.png" alt="Hogwarts Emblem" class="emblem">
+            <h1>Welcome to Hogwarts School of </h1>
+            <h1>Witchcraft and Wizardry</h1>
+            <nav>
+                <ul>
+                    <li><a href="#gryffindor">Gryffindor</a></li>
+                    <li><a href="#slytherin">Slytherin</a></li>
+                    <li><a href="#ravenclaw">Ravenclaw</a></li>
+                    <li><a href="#hufflepuff">Hufflepuff</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="intro-section">
+        <div class="container">
+            <h2>Welcome to Hogwarts</h2>
+            <p>Welcome to Hogwarts School of Witchcraft and Wizardry, the finest magical institution in the wizarding world. Founded over a thousand years ago by the four greatest witches and wizards of the age, Hogwarts has been a beacon of magical education ever since.</p>
+            <p>At Hogwarts, students are sorted into one of four houses: Gryffindor, Slytherin, Ravenclaw, or Hufflepuff. Each house has its own unique qualities and values, fostering a sense of belonging and camaraderie among its members.</p>
+            <p>Explore the tabs below to learn more about each house and discover the magic that awaits!</p>
+        </div>
+    </section>
+
+    <section id="gryffindor" class="house-section">
+        <div class="container">
+            <h2>Gryffindor</h2>
+            <img src="gryffindor.png" alt="Gryffindor Crest">
+            <p>Gryffindor is one of the four Houses of Hogwarts School of Witchcraft and Wizardry. Its emblematic animal is the lion and its colors are scarlet and gold. The head of this house is the Transfiguration Professor and Deputy Headmistress, Minerva McGonagall, and the house ghost is Sir Nicholas de Mimsy-Porpington, more commonly known as Nearly Headless Nick.</p>
+        </div>
+    </section>
+
+    <section id="slytherin" class="house-section">
+        <div class="container">
+            <h2>Slytherin</h2>
+            <img src="slytherin.png" alt="Slytherin Crest">
+            <p>Slytherin is one of the four Houses of Hogwarts School of Witchcraft and Wizardry. Its emblematic animal is the serpent and its colors are green and silver. The head of this house is the Potions Master and Head of Slytherin House, Severus Snape, and the house ghost is the Bloody Baron.</p>
+        </div>
+    </section>
+
+    <section id="ravenclaw" class="house-section">
+        <div class="container">
+            <h2>Ravenclaw</h2>
+            <img src="ravenclaw.png" alt="Ravenclaw Crest">
+            <p>Ravenclaw is one of the four Houses of Hogwarts School of Witchcraft and Wizardry. Its emblematic animal is the eagle and its colors are blue and bronze. The head of this house is the Charms professor, Filius Flitwick, and the house ghost is the Grey Lady, otherwise known as Helena Ravenclaw.</p>
+        </div>
+    </section>
+
+    <section id="hufflepuff" class="house-section">
+        <div class="container">
+            <h2>Hufflepuff</h2>
+            <img src="hufflepuff.png" alt="Hufflepuff Crest">
+            <p>Hufflepuff is one of the four Houses of Hogwarts School of Witchcraft and Wizardry. Its emblematic animal is the badger, and Yellow and Black are its colors. The head of this house is the Herbology Professor, Pomona Sprout, and the house ghost is The Fat Friar.</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Hogwarts School of Witchcraft and Wizardry. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <button id="scrollTopBtn"><i class="fas fa-arrow-up"></i></button>
+
+    <script>
+        // Get the button
+        let scrollTopBtn = document.getElementById("scrollTopBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                scrollTopBtn.style.display = "block";
+            } else {
+                scrollTopBtn.style.display = "none";
+            }
+        };
+
+        // When the user clicks on the button, scroll to the top of the document
+        scrollTopBtn.onclick = function() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        };
+    </script>
+    
+</body>
+
+</html>
